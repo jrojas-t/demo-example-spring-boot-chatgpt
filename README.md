@@ -1,6 +1,3 @@
-# demo-example-spring-boot-chatgpt
-Demo project for Spring Boot with Integration APIs of OpenAPI
-
 # Spring Boot Integration APIs of OpenAI
 
 ## Requirements
