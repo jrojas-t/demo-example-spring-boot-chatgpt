@@ -1,0 +1,20 @@
+#Configurator Application Properties
+openai-service:
+  api-key: YOUR_API_KEY
+  gpt-model: gpt-3.5-turbo
+  http-client:
+    read-timeout: 3000
+    connect-timeout: 3000
+  urls:
+    base-url: https://api.openai.com/v1
+    chat-url: /chat/completions
+
+#Configurator Slf4j
+logging:
+  level:
+    com.github.wenqiglantz.service.openaiclient: TRACE
+
+#Configurator Spring
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL
