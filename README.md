@@ -13,7 +13,7 @@
 git clone https://github.com/jrojas-t/demo-example-spring-boot-chatgpt.git
 ```
 
-**2. Change MySQL username and password as per your MySQL installation**
+**2. Configuration**
 
 open `src/main/resources/application.yaml`, and change `openai-service.api-key: YOUR_API_KEY` you need to generate an api key at [(Generate API KEY)](https://platform.openai.com/account/api-keys)
 
@@ -25,7 +25,7 @@ Finally, You can run the app by typing the following command from the root direc
 mvn spring-boot:run
 ```
 
-## Scheduling an Email using the /scheduleEmail API
+## Test API
 
 ```bash
 curl --location 'http://localhost:8080/api/v1/chat' \
